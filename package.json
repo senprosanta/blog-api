@@ -1,0 +1,39 @@
+{
+  "name": "blog-api",
+  "version": "1.0.0",
+  "description": "A test blog api",
+  "main": "server.js",
+  "scripts": {
+    "lint": "eslint",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senprosanta/blog-api.git"
+  },
+  "keywords": [
+    "test",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/senprosanta/blog-api/issues"
+  },
+  "homepage": "https://github.com/senprosanta/blog-api#readme",
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "nodemon": "^2.0.15",
+    "prettier": "2.4.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "morgan": "^1.10.0"
+  }
+}
